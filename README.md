@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Org - Plataforma de Organización de Personas y Equipos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+![org](https://user-images.githubusercontent.com/120766403/233857948-b137f021-ba5d-4baf-9a20-f446b487affe.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Org es una plataforma de organización desarrollada con React, una biblioteca de JavaScript ampliamente utilizada para la construcción de interfaces de usuario interactivas. Este proyecto se ha creado desde cero, con el objetivo de ayudar a las empresas a organizar tanto a las personas como a los equipos de manera eficiente.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ¿Qué es React?
+React es una biblioteca de JavaScript que permite crear interfaces de usuario reactivas y eficientes. Con React, se pueden construir componentes reutilizables que encapsulan la lógica y la apariencia de una parte de la interfaz de usuario. Estos componentes se pueden combinar y reutilizar en diferentes partes de una aplicación, lo que facilita el desarrollo y el mantenimiento del código.
 
-### `npm test`
+## Componentes en Org
+Org se ha construido siguiendo una arquitectura de componentes en React. Los componentes son bloques de construcción de la interfaz de usuario que encapsulan la lógica y la apariencia de una parte específica de la aplicación. En Org, se han creado diferentes tipos de componentes, como:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Componentes de persona:** Permiten agregar, editar y eliminar personas en la plataforma. Estos componentes incluyen campos como nombre, cargo, foto de perfil, etc.
 
-### `npm run build`
+- **Componentes de equipo:** Permiten crear, editar y eliminar equipos en la plataforma. Estos componentes incluyen campos como nombre del equipo, lista de miembros, etc.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Componentes de organización:** Permiten organizar a las personas y equipos en la plataforma. Estos componentes incluyen funcionalidades como la asignación de personas a equipos, la visualización de la estructura organizativa, etc.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Funcionalidades de Org
+Org ofrece diversas funcionalidades para organizar personas y equipos en una empresa. Algunas de las características principales incluyen:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Agregar y eliminar personas:** Los usuarios pueden agregar información detallada de las personas en la empresa, incluyendo su nombre, cargo, foto de perfil, etc. También se puede eliminar personas cuando ya no son parte de la empresa.
 
-### `npm run eject`
+- **Editar información de personas**: Los usuarios pueden editar la información de las personas en la plataforma, lo que permite mantener los datos actualizados y precisos.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Crear y gestionar equipos**: Los usuarios pueden crear equipos y asignarles miembros. También pueden editar y eliminar equipos según las necesidades de la empresa.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Organizar personas en equipos**: Los usuarios pueden asignar personas a equipos específicos y visualizar la estructura organizativa de la empresa, lo que facilita la gestión de los recursos humanos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Instalación y Uso
+Para utilizar Org en su proyecto, siga los siguientes pasos:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone el repositorio de Org en su máquina local.
+1. Ejecute npm install para instalar las dependencias necesarias.
+1. Ejecute npm start para iniciar la aplicación en su navegador.
+2. Navegue por la plataforma de Org y utilice las funcionalidades de agregar, editar y eliminar personas y equipos, y organizarlos en la estructura organizativa.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Esperamos que disfrute utilizando Org como una herramienta eficaz para organizar personas y equipos en su empresa!
